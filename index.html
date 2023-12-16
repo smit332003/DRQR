@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. QR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Certificates">Intentions</a></li>
+                <li><a href="#projects">Medications</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Dr. QR</p>
+            <h1> <span>SCAN. DISCOVER . EMPOWER!</span><br>
+                <div class="intro-text">
+                    <h1>At Dr QR, we are on a mission to revolutionize how you access information about your medications. Our innovative platform empowers you to Scan, Discover, and take control of your health journey.</h1>
+                </div>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Our Start Up</h1>
+                <p>We are a leading Pharma startup dedicated to providing detailed information about medicines through our application. Our focus is on improving healthcare by offering a convenient way for users to access accurate details about each medicine using its barcode.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Founders</p>
+                    <p class="tab-links" onclick="opentab('experience')">Collaborators</p>
+                    <p class="tab-links" onclick="opentab('education')">Dev_Team</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Product Manager</span><br>Deep Parekh</li>
+                        <li><span>Health Informatics Specialist</span><br>Keval Patel</li>
+                        <li><span>Quality Assurance Specialist (QA) - Healthcare Technology</span><br>Meet Patel</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Since 2022 - Khambhat</span><br>Jivandhara Hospital.</li>
+                       
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>CTO</span><br>Smit Patel</li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="Certificates">
+    <br></br> 
+    <br></br> 
+    <div class="container">
+        <h1 class="sub-title">Intentions of Dr QR:</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Scan for Knowledge:</h2>
+                <p>After purchasing medicine, simply scan the QR code located next to the medication strip.<p class="line-spacing"></p>
+                This initial step ensures a seamless connection between your medication and our information platform.</p>
+                <a href="#"></a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Access Information Anytime, Anywhere:</h2>
+                <p>Visit our website to access detailed information about your medication in multiple languages.<p class="line-spacing"></p>
+                Our user-friendly platform provides comprehensive details, including dosage, side effects, and usage instructions.</p>
+                <a href="#"></a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Empower Your Health Journey:</h2>
+                <p>Step into a world of empowerment where information is key.<p class="line-spacing"></p>
+                By scanning and accessing our website, you take control of your health journey with knowledge, ensuring informed decisions about your well-being.</p>
+                <a href="#"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------Projects------------ -->
+<div id="projects">
+    <br></br> 
+    <br></br> 
+    <div class="container">
+        <h1 class="sub-title">Medications</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Metformin</h3>
+                    <p>Purpose: Metformin helps control blood sugar levels. It's commonly prescribed for type 2 diabetes patients, particularly when diet and exercise alone have not been sufficient to control their blood glucose levels.</p>
+                    <a href="./metformin.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p><i class="fas fa-paper-plane"></i> parekhdeep58@gmail.com</p>
+                <div class="social-icons">
+                <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/krish1123/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Check Out our Terms and Conditions</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Thanks for Visiting. <i class="fas fa-heart"></i>  <a href="https://www.youtube.com/channel/UCkjoHfkLEy7ZT4bA2myJ8xA?sub_confirmation=1"></a></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
