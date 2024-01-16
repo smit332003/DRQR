@@ -46,6 +46,7 @@ nav {
     width: 140px;
 }
 
+
 .intro-text {
     margin-right: 50%; /* Adjust the value as needed */
 }
@@ -152,6 +153,10 @@ nav ul li a:hover::after {
 }
 .line-spacing {
     margin-top: 10px; /* Adjust the value as needed */
+}
+
+.spacing {
+    margin-top: 20px;
 }
 
 .tab-contents ul li {
@@ -397,7 +402,11 @@ nav .fas {
     #header {
         background-image: url(images/phone-background.jpeg);
     }
-
+@media screen and (max-width: 768px) {
+        .intro-text {
+            display: none;
+        }
+    }
     .header-text {
         margin-top: 100%;
         font-size: 16px;
@@ -405,6 +414,13 @@ nav .fas {
 
     .header-text h1 {
         font-size: 30px;
+    }
+    .body-text h5{
+        font-size: 15px;
+    }
+
+    .divspace{
+        margin-top: -40px;
     }
 
     nav .fas {
